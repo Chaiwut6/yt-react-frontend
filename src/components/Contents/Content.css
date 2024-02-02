@@ -1,0 +1,99 @@
+#the-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 0 24px;
+    padding-bottom: 20px;
+}
+.card .-thumb{
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.card .-channel-img{
+    width: 44px;
+    height: 32px;
+    display: flex;
+    overflow: hidden;
+}
+
+.card .-channel-img img{
+    border-radius: 10rem;
+}
+
+.card .-about{
+    display: grid;
+    grid-template-columns: 44px auto 44px;
+}
+
+.card .-title{
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #0f0f0f;
+    margin-bottom: 4px;
+}
+
+.card .-channel{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #606060
+}
+.card .-view{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #606060;
+}
+
+#shorts .-section-title{
+    color: #000;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+}
+
+.short-warp{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 24px 0 32px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 4px;
+}
+
+.short .-title{
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #0f0f0f;
+    margin-bottom: 4px;
+}
+
+.short .-thumb{
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.short .-view{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #606060;
+}
+
+.short .-about{
+    display: grid;
+    grid-template-columns: auto 40px;
+}

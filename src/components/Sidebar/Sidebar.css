@@ -1,0 +1,29 @@
+#side{
+    overflow: auto;
+    max-height: 100%;
+    padding: 12px;
+}
+.-side-pmr{
+   display: grid;
+   grid-auto-rows: 40px;
+   align-items: center;
+}
+
+.-side-pmr .-item{
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.-side-pmr .item:hover{
+    background-color: #f2f2f2;
+}
+
+.-side-pmr .-text{
+    font-size: 1.4rem;
+    line-height: 10px;
+}

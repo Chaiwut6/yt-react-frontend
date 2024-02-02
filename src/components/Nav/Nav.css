@@ -1,0 +1,117 @@
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav .-brand{
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    height: 100%;
+}
+
+#nav .-ham{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#nav .-ham:hover{
+    background-color: #f2f2f2;
+}
+
+#nav .-ham img{
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+
+#nav .-logo{
+    padding: 0 36px;
+}
+
+#nav .-center{
+    width: 732px;
+    display: grid;
+    grid-template-columns: 640px 40px;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav .-end{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav .-search-input{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: none;
+    padding-left: 2rem;
+}
+
+#nav .-search{
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: auto 64px;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav .-voice{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+}
+
+#nav .-search-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #ccc;
+    border-left: 0;
+    cursor: pointer;
+}
+
+#nav .-search-box{
+    width: 514px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    overflow: hidden;
+}
+
+#nav .-search-input:focus-visible{
+    outline: none;
+}
+
+#nav .-end-item{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav .-end-item:hover{
+    background-color: #f8f8f8;
+    cursor: pointer;
+
+}
