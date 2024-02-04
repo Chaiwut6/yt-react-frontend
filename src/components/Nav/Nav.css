@@ -1,6 +1,7 @@
 #nav{
     display: flex;
     justify-content: space-between;
+    
 }
 #nav .-brand{
     display: grid;
